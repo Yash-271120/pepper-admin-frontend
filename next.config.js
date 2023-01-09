@@ -4,8 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true
 },
-basePath:"/pepper-admin-frontend",
-assetPrefix:"/pepper-admin-frontend/",
 }
 
 module.exports = nextConfig
