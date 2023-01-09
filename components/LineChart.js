@@ -38,7 +38,7 @@ const options = {
 
 const LineChart = ({chartData})=>{
     return (
-        <div className="basis-8/12 h-96 rounded-2xl p-10 m-5">
+        <div className="basis-8/12 md:block hidden h-96 rounded-2xl p-10 m-5">
             <Line data = {chartData} options={options} className=" bg-white rounded-2xl"/>
         </div>
     )
